@@ -8,8 +8,7 @@
   h4 {
     font-size: 20px;
     text-align: center;
-          margin-top: 10px;
-
+    margin-top: 10px;
   }
 
   .filter {
@@ -27,8 +26,8 @@
     gap: 30px;
     h2 {
       cursor: pointer;
-      background-color: var(--dark-green);
-      color: white;
+      background-color: white;
+      color: var(--dark-green);
       padding: 10px 20px;
       border-radius: 12px;
       font-size: 20px;
@@ -36,14 +35,14 @@
       border: 1px solid var(--dark-green);
       transition: 0.2s;
       &:hover {
-        background-color: white;
-        color: var(--dark-green);
+        background-color: var(--dark-green);
+        color: white;
       }
     }
 
     h2.active {
-      background-color: white;
-      color: var(--dark-green);
+      background-color: var(--dark-green);
+      color: white;
     }
   }
 
@@ -141,14 +140,12 @@
   }
 }
 
-
-
 @media (max-width: 1500px) {
   .services {
     gap: 35px;
 
     h4 {
-            margin-top: 8px;
+      margin-top: 8px;
 
       font-size: 17px;
     }
@@ -195,8 +192,6 @@
     }
   }
 }
-
-
 
 @media (max-width: 1000px) {
   .services {
