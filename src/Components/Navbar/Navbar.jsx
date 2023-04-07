@@ -36,7 +36,7 @@ const Navbar = () => {
                 <NavLink to="/services" onClick={handleMenu}> Services</NavLink>
                 <NavLink to="/about-us" onClick={handleMenu}>About Us</NavLink>
                 <NavLink to="/rate-list" onClick={handleMenu}>Rate List</NavLink>
-                <button className="special-link" onClick={handleButton}>Sell Scrap</button>
+                <button className="button" onClick={handleButton}>Sell Scrap</button>
             </div>
 
             <div className="hamburger" onClick={handleMenu}>
