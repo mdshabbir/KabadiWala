@@ -1,16 +1,14 @@
-import { Link } from "react-router-dom"
-import "./Footer.scss"
-
+import { Link } from "react-router-dom";
+import "./Footer.scss";
 
 //Images
-import logo from "../../Assets/logo.png"
-import instagram from "../../Assets/instagram.png"
-import facebook from "../../Assets/facebook.png"
-import twitter from "../../Assets/twitter.png"
-import home from "../../Assets/home.png"
-import email from "../../Assets/email.png"
-import phone from "../../Assets/telephone.png"
-
+import logo from "../../Assets/logo.png";
+import instagram from "../../Assets/instagram.png";
+import facebook from "../../Assets/facebook.png";
+import twitter from "../../Assets/twitter.png";
+import home from "../../Assets/home.png";
+import email from "../../Assets/email.png";
+import phone from "../../Assets/telephone.png";
 
 const Footer = () => {
   return (
@@ -19,28 +17,35 @@ const Footer = () => {
         <div className="logo">
           <Link to="/">
             <img src={logo} alt="" />
-            <h3>Modern <span>KabadiWala</span></h3>
+            <h3>
+              Online <span>KabadiWala</span>
+            </h3>
           </Link>
         </div>
 
         <div className="details">
           <div className="group">
             <img src={home} alt="" />
-            <a href="https://goo.gl/maps/yJA7HWtTysHPKXES8" target="_blank">Cabin 3, 1st floor A&A Lake front opp. <br />
-              Durgam cheruvu, Hyderabad</a>
-
+            <a href="https://goo.gl/maps/yJA7HWtTysHPKXES8" target="_blank">
+              Belwatika nawatoli Palamu Daltonganj
+              <br />
+              Jharkhand
+            </a>
           </div>
 
           <div className="group">
             <img src={email} alt="" />
-            <a href="#" target="_blank">test@email.com</a>
+            <a href="#" target="_blank">
+              mdshabbir0500@gmail.com
+            </a>
           </div>
 
           <div className="group">
             <img src={phone} alt="" />
-            <a href="#" target="_blank">+91-9879120876</a>
+            <a href="#" target="_blank">
+              +91-7061422320
+            </a>
           </div>
-
         </div>
 
         <div className="important-links">
@@ -68,10 +73,15 @@ const Footer = () => {
         </div>
       </div>
       <div className="lower">
-        <p>Made with ❤ by <a href="https://www.instagram.com/i_am_zayd_ali/" target="_blank">Zayd</a></p>
+        <p>
+          Made with ❤ by{" "}
+          <a href="https://www.instagram.com/i_am_zayd_ali/" target="_blank">
+            Shabbir
+          </a>
+        </p>
       </div>
     </footer>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;
